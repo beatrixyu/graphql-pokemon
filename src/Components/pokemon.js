@@ -1,4 +1,5 @@
 import React from "react"
+import { mockComponent } from "react-dom/test-utils"
 
 export function Pokemon({ pokemon }) {
     return (
@@ -13,6 +14,7 @@ export function Pokemon({ pokemon }) {
                             <span>Name: {attack.name}</span>
                             <span>Type: {attack.type}</span>
                             <span>Damage: {attack.damage}</span>
+
                         </div>
                     )}
             </div>
